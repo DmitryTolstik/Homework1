@@ -9,30 +9,30 @@ public class homework2_2 {
 
         if (algoritmId == 1) {
             if (loopType == 1) {
-                febonWhile(num);
+                CalculateFebonWhile(num);
             }
             if (loopType == 2) {
-                febonDoWhile(num);
+                CalculateFebonDoWhile(num);
             }
             if (loopType == 3) {
-                febonFor(num);
+                CalculateFebonFor(num);
             }
         }
         if (algoritmId == 2) {
             if (loopType == 1) {
-                factorialWhile(num);
+                CalculateFactorialWhile(num);
             }
             if (loopType == 2) {
-                factorialDoWhile(num);
+                CalculateFactorialDoWhile(num);
             }
             if (loopType == 3) {
-                factorialFor(num);
+                CalculateFactorialFor(num);
             }
         }
 
     }
 
-    static void febonWhile(int num) {
+    static void CalculateFebonWhile(int num) {
         int numFebonachi1 = 0;
         int numFebonachi2 = 1;
         int i = 1;
@@ -45,7 +45,7 @@ public class homework2_2 {
         }
     }
 
-    static void febonDoWhile(int num) {
+    static void CalculateFebonDoWhile(int num) {
         int numFebonachi1 = 0;
         int numFebonachi2 = 1;
         int i = 1;
@@ -58,7 +58,7 @@ public class homework2_2 {
         } while (i <= num);
     }
 
-    static void febonFor(int num) {
+    static void CalculateFebonFor(int num) {
 
         if (num == 0) {
             System.out.println("Error");
@@ -78,7 +78,7 @@ public class homework2_2 {
         }
     }
 
-    static void factorialWhile(int num) {
+    static void CalculateFactorialWhile(int num) {
         int factorialNumberOnt = 1;
         int i = 1;
 
@@ -95,7 +95,7 @@ public class homework2_2 {
         }
     }
 
-    static void factorialDoWhile(int num) {
+    static void CalculateFactorialDoWhile(int num) {
         int factorialNumberOnt = 1;
         int i = 1;
 
@@ -110,7 +110,7 @@ public class homework2_2 {
         }
     }
 
-    static void factorialFor(int num) {
+    static void CalculateFactorialFor(int num) {
         int factorialNumOne = 1;
         if (num == 0) {
             System.out.println(0);
