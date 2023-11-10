@@ -1,6 +1,6 @@
 package main.java.com.tolstik.homework2;
 
-public class Homework2 {
+public class Task1 {
     public static void main(String[] args) {
 
         int a = Integer.parseInt(args[0]);
