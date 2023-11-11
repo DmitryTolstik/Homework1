@@ -20,13 +20,13 @@ public class Task2 {
         }
         if (algorithmId == 2) {
             if (loopType == 1) {
-                CalculateFactorialUsingWhileLoop(num);
+                calculateFactorialUsingWhileLoop(num);
             }
             if (loopType == 2) {
-                CalculateFactorialUsingDoWhileLoop(num);
+                calculateFactorialUsingDoWhileLoop(num);
             }
             if (loopType == 3) {
-                CalculateFactorialUsingForLoop(num);
+                calculateFactorialUsingForLoop(num);
             }
         }
 
@@ -75,7 +75,7 @@ public class Task2 {
         }
     }
 
-    static void CalculateFactorialUsingWhileLoop(int num) {
+    static void calculateFactorialUsingWhileLoop(int num) {
         int factorialNumberOnt = 1;
         int i = 1;
 
@@ -92,7 +92,7 @@ public class Task2 {
         }
     }
 
-    static void CalculateFactorialUsingDoWhileLoop(int num) {
+    static void calculateFactorialUsingDoWhileLoop(int num) {
         int factorialNumberOne = 1;
         int i = 1;
 
@@ -107,7 +107,7 @@ public class Task2 {
         }
     }
 
-    static void CalculateFactorialUsingForLoop(int num) {
+    static void calculateFactorialUsingForLoop(int num) {
         int factorialNumOne = 1;
         if (num == 0) {
             System.out.println(0);
